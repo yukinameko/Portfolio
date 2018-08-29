@@ -27,6 +27,18 @@ body {
   line-height: 50px;
   margin-right: 2px;
 }
+#nav a {
+  text-decoration: none;
+}
+#nav a:link {
+  color: #ffffff;
+}
+#nav a:visited {
+  color: #ffffff;
+}
+#nav a:active {
+  color: #ffffff;
+}
 
 #nav li:hover{
   background-color: #666666;
@@ -45,6 +57,12 @@ body {
   overflow: auto;
 }
 
+.contents h0 {
+  background-color: #333333;
+  color: #fff;
+  font-size: 35px;
+}
+
 .contents h1 {
   width: 100%+150px;
   background-color: #333333;
@@ -52,8 +70,15 @@ body {
 }
 .contents h2 {
   width: 100%+150px;
-  background-color: #a2d7dd;
+  background-color: #7ec7d8;
+  /*background-color: #a2d7dd;*/
   /*color: #ffffff;*/
+}
+
+.contents h3 {
+  width: 100%+150px;
+  background-color: #bce1df;
+  /*background-color: #a2d7dd;*/
 }
 
 .contents p {
