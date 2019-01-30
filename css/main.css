@@ -86,6 +86,10 @@ body {
   width: 70%;
 }
 
+.contents img.phone {
+  width: 27%;
+}
+
 .contents img {
   width: 40%;
 }
